@@ -1,0 +1,161 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav ul {
+    margin-top: 10;
+}
+
+.nav li {
+    text-decoration: underline;
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.container-one {
+    display: flex;
+    position: relative;
+}
+
+.mission-tea {
+    height: 700px;
+    margin: auto;
+}
+
+.mission-statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+.mission-statement h2, .mission-statement h4 {
+    background-color: #000;
+    padding: 10px 10px;
+}
+
+.mission-statement h4 {
+    margin-top: 0;
+}
+
+.mission-statement h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.container-two {
+    margin-top: 60px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.heading {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.flex-wrapper {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box h4 {
+    margin-top: 10px;
+}
+
+.monthly-images {
+    width: 300px;
+    height: 200px;
+}
+
+.container-three {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: auto;
+    width: 1050px;
+    background-image: url("../images/img-locations-background.jpeg");
+    background-size: cover;
+    gap: 15px;
+}
+
+.container-three h2 {
+    background-color: transparent;
+    margin-top: 0;
+
+}
+
+.flex-wrapper-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+.location-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    opacity: 1;
+    width: 300px;
+    height: 250px;
+    line-height: 5px;
+}
+
+.location-card:not(:last-child) {
+    margin-right: 40px;
+}
+
+.location-card h3 {
+    margin-top: 40px;
+}
+
+.footer {
+    line-height: 0px;
+    margin-top: 60px;
+}
+
+.copyright {
+    text-align: left;
+    margin: 10px;
+}

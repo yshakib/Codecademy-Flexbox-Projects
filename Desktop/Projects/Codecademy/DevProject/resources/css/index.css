@@ -1,0 +1,26 @@
+* {
+    font-family: helvetica;
+    background-color: rgb(245, 245, 220);
+}
+
+h1 {
+    display: block;
+    margin-left: 70px;
+    margin-top: auto;
+    font-weight: normal;
+    color: darkslategray;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h3 {
+    margin-top: 50px;
+    color: black;
+}
+
+
