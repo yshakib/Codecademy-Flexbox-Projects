@@ -1,0 +1,149 @@
+* {
+    font-family: alegreya, serif;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    height: 6rem;
+}
+
+.title h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+
+nav li {
+    list-style: none;
+    display: inline-flex;
+    margin: .5em;
+    font-size: 1em;
+}
+
+nav li a {
+    color: #000;
+}
+
+/* Hero Section */
+
+.banner {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    background-image: url(../images/banner.jpg);
+    background-size: 90%;
+    justify-content: right;
+}
+
+.banner h2 {
+    color: #FFF;
+    font-weight: 400;
+    margin-right: 10rem;
+    font-size: 2.5rem;
+    align-self: center;
+    text-align: center;
+}
+
+.banner .demo {
+    color: #CCC;
+}
+
+/* Featured Artists */
+
+.featured-container {
+    align-items: center;
+}
+
+.fa-header {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+}
+
+.box {
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: .5rem groove #000;
+}
+
+.artist-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.artist-image {
+    width: 17rem;
+    height: 15rem;
+    flex-shrink: 1;
+}
+
+.artist-wrapper h4 {
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+/* Footer */
+
+.footer-wrapper {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    color: #FFF;
+    padding: 1rem;
+}
+
+.footer-wrapper p {
+    color: #FFF;
+    justify-self: center;
+    align-self: center;
+    font-family: roboto;
+    font-size: .8rem;
+}
+
+.footer-wrapper ul {
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 0;
+    font-size: .8rem;
+}
+
+.footer-wrapper a {
+    font-family: roboto;
+    text-decoration: none;
+    color: #FFF;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    margin-top: 1rem;
+}
+
+.socials img {
+    width: 2rem;
+    height: 2rem;
+    background-color: #FFF;
+    padding: 0;
+    border: .5rem solid #000;
+    border-radius: 100%;
+}
