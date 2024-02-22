@@ -60,6 +60,8 @@ nav li a {
 
 .banner .demo {
     color: #CCC;
+    border: .3rem solid #CCC;
+    padding: 0 .2rem;
 }
 
 /* Featured Artists */
@@ -105,8 +107,7 @@ nav li a {
     background-color: #000;
     display: flex;
     justify-content: space-between;
-    margin-top: 10rem;
-    margin-bottom: 0;
+    margin: 10rem 0 0 0;
     color: #FFF;
     padding: 1rem;
 }
